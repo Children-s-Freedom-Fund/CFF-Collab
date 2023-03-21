@@ -54,7 +54,7 @@
 /* Hero-section */
 
 .hero-image {
-    height: 500px;
+    height: 95vh;
     background: url(Assets/Images/Section\ Image.svg) no-repeat center;
     background-size: cover;
     position: relative;
@@ -179,17 +179,21 @@
     flex-direction: row;
     max-width: 1512px;
     margin: 0 auto;
+    padding: 0 40px 200px;
 }
 
 .second-container .text2 {
     background-color: #FB8903;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 65%;
+    height: 900px;
 }
 
 .one {
     background-color: #FFFDFD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    margin: 20px;
 }
 
 .clock {
@@ -205,7 +209,9 @@
 }
 
 .time {
-    
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
 
 }
 
