@@ -65,7 +65,7 @@ nav{
 
 /*SECTION 1*/
 .section_1{
-    background-image: url('/assets/image1.png');
+    background-image: url('/About-us-assets/image1.png');
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-size:  cover;
     height: 90vh;
