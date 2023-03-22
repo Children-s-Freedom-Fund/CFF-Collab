@@ -44,7 +44,7 @@
     width: 80%;
     /* margin: 0 20%; */
     position: absolute;
-    top: 90%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -123,7 +123,6 @@
     width: 100%;
 }
 .corporate{
-    margin: 0 5%;
     padding: 25px 0;
 }
 .corporate h3{
