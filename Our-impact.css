@@ -8,7 +8,7 @@
 
 /* Nav section */
 
-.navbar {
+.navibar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,14 +26,15 @@
     width: 100%;
 }
 
-.nav-link {
+.navi-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 55px;
 }
 
-.nav-link a {
+
+.navi-link a {
     color: black;
     text-decoration: none;
 }
@@ -43,7 +44,7 @@
     padding: 3px 10px;
 }
 
-.nav-link button {
+.navi-link button {
     background-color: #088F4E;
     color: white;
     border-radius: 8px;
@@ -86,7 +87,7 @@
     justify-content: space-between;
     max-width: 1512px;
     margin: 0 auto;
-    padding: 270px 40px 200px;
+    padding: 270px 40px 100px;
 }
 
 .image-one img {
@@ -179,28 +180,29 @@
     flex-direction: row;
     max-width: 1512px;
     margin: 0 auto;
-    padding: 0 40px 200px;
 }
+
 
 .second-container .text2 {
     background-color: #FB8903;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 65%;
-    height: 900px;
 }
+
 
 .one {
     background-color: #FFFDFD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 30px;
-    margin: 20px;
 }
+
 
 .clock {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
+
 
 .comment {
     display: flex;
@@ -209,16 +211,33 @@
 }
 
 .time {
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
+    
 
 }
 
 
-.second-container .image {
+/* Testimonial */
 
+#testimonials {
+    background: url(Assets/Images/Testimonial-image.svg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+    height: 50vh;
+}
 
+.testimonial-h2 {
+    padding-top: 3rem;
+}
+ 
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+} 
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 
