@@ -8,7 +8,7 @@
 
 /* Nav section */
 
-.navbar {
+.navibar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,14 +26,18 @@
     width: 100%;
 }
 
-.nav-link {
+.navi-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 55px;
 }
 
-.nav-link a {
+.lins {
+    text-decoration: none;
+}
+
+.navi-link a {
     color: black;
     text-decoration: none;
 }
@@ -43,7 +47,7 @@
     padding: 3px 10px;
 }
 
-.nav-link button {
+.navi-link button {
     background-color: #088F4E;
     color: white;
     border-radius: 8px;
