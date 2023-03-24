@@ -509,6 +509,9 @@ h2 {
   }
 }
 @media screen and (max-width: 500px) {
+  #home .nav-bar .nav-link {
+    display: none;
+  }
   #home header {
     background-image: url("images/header-image.png");
     width: 100%;
