@@ -7,6 +7,7 @@
 }
 .body{
     width: 100%;
+    
 }
 
 /* Nav section */
@@ -145,7 +146,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 60px;
+    font-size: 58px;
     line-height: 70px;
     color: #088F4E;
 }
@@ -168,7 +169,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 52px;
+    font-size: 47px;
     line-height: 78px;
     color: #2F2E2E;
 }
@@ -176,8 +177,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 48px;
     color: #2F2E2E;
     text-align: justify;
 }
@@ -307,4 +308,11 @@
     font-size: 18px;
     line-height: 33px;
     color: #ffffff;
+  }
+
+
+  /* RESPONSIVENESS */
+  @media screen and (max-width: 1200px) and (min-width: 700px) {
+    .Get-involved }
+    padding: 5rem 4rem;
   }
