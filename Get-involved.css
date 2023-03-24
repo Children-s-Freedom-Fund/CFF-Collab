@@ -333,4 +333,10 @@
     .getsec1{
       height: 60vh;
     }
+    .getsec2{
+      width: 95%;
+      top: 80%;
+      left: 50%;
+      height: 3rem;
+    }
  }
