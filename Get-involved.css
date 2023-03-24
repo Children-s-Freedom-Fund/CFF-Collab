@@ -130,11 +130,15 @@
     max-width: 1512px;
     margin: 0 auto;
 }
+.slider-mobile{
+    display: none;
+}
 .img2{
     padding-top: 50px;
     padding-bottom: 5px;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 .voldon{
     display: flex;
@@ -163,7 +167,7 @@
     width: 100%;
 }
 .corporate{
-    padding: 25px 0;
+    padding: 25px 20px;
 }
 .corporate h3{
     font-family: 'Montserrat';
@@ -182,8 +186,9 @@
     color: #2F2E2E;
     text-align: justify;
 }
-.corporate span{
+.corporate a{
     color: #11643C;
+    text-decoration: none;
 }
 .img6{
     margin: 15px 0;
@@ -312,7 +317,20 @@
 
 
   /* RESPONSIVENESS */
-  @media screen and (max-width: 1200px) and (min-width: 700px) {
-    .Get-involved }
-    padding: 5rem 4rem;
-  }
+ @media screen and (max-width: 500px) {
+    .navbar{
+      display: none;
+    }
+  .slider{
+        display: none;
+    }
+    .slider-mobile{
+        display: block;
+    }
+    .footer-background{
+      display: none;
+    }
+    .getsec1{
+      height: 60vh;
+    }
+ }
