@@ -451,6 +451,7 @@ h2 {
   line-height: 33px;
   color: #ffffff;
 }
+
 /* RESPONSIVENESS */
 @media screen and (max-width: 1200px) and (min-width: 700px) {
   .about {
@@ -505,5 +506,177 @@ h2 {
   }
   .impact h4 {
     font-size: 32px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #home header {
+    background-image: url("images/header-image.png");
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+  }
+  #home header h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  #home header button {
+    width: 70%;
+    padding: 0.7rem 1.3rem;
+  }
+  #home a {
+    font-size: 1.1rem;
+    font-family: "Manrope", sans-serif;
+  }
+  .about {
+    display: flex;
+    padding: 2rem 1.5rem;
+    /* justify-content: space-between; */
+    position: relative;
+  }
+  .about .about-img {
+    width: 70%;
+    display: none;
+  }
+  .about .abt-text .mission-card {
+    position: relative;
+    background: #fcfaf9;
+    padding: 2rem 1rem;
+    margin: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    top: 0;
+  }
+  .about .abt-text h2 {
+    font-size: 2rem;
+    padding: 0;
+  }
+  .about .abt-text h6 {
+    font-size: 1rem;
+  }
+  .about .abt-text .mission-card h1 {
+    font-size: 3rem;
+    top: -5%;
+  }
+  .about .abt-text .mission-card button {
+    padding: 0.7rem 1.1rem;
+    margin-top: 1.7rem;
+    width: 80%;
+    align-self: center;
+  }
+  .about .abt-text .mission-card p {
+    font-size: 1rem;
+    /* text-align: center; */
+    line-height: 30px;
+  }
+  .sponsor,
+  .volunteer {
+    display: flex;
+    padding: 2rem 1.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sponsor {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sponsor .sponsor-img,
+  .volunteer .volunteer-img {
+    width: 100%;
+  }
+  .sponsor .sponsor-text,
+  .volunteer .volunteer-text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sponsor h2,
+  .volunteer h2 {
+    font-size: 2rem;
+    margin: 1.3rem 0 0.5rem 0;
+  }
+  .sponsor .sponsor-text p,
+  .volunteer .volunteer-text p {
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 28px;
+    text-align: center;
+  }
+  .sponsor .sponsor-text button,
+  .volunteer .volunteer-text button {
+    padding: 0.7rem 1.3rem;
+    width: 70%;
+    margin: 1rem 0;
+  }
+  .impact {
+    padding: 2rem 2rem;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+  }
+  .impact button {
+    align-self: center;
+    margin-top: 3rem;
+    padding: 0.7rem 1.2rem;
+    width: 80%;
+  }
+
+  .impact-cont {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+  }
+  .impact h4 {
+    font-size: 2rem;
+    line-height: 30px;
+  }
+  .subscribe {
+    padding: 2rem 1rem;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    text-align: center;
+    background: #fefaf5;
+  }
+  .subscribe h2 {
+    font-size: 2.2rem;
+  }
+  .email {
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /* position: relative; */
+  }
+  .subscribe button {
+    background: #088f4e;
+    border-radius: 8px;
+    border: none;
+    padding: 0.9rem 1.5rem;
+    /* width: 15%; */
+    width: 90%;
+    position: relative;
+    right: 0;
+  }
+  .subscribe p {
+    padding: 1rem 0;
+    font-size: 1rem;
+  }
+  .subscribe input {
+    padding: 1rem;
+    width: 90%;
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 1rem 0;
   }
 }
