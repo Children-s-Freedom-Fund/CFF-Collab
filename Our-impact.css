@@ -9,22 +9,36 @@
 
 /* Nav section */
 
+.background-nav {  
+    background-color: #f5f8fe;
+    margin: 0 auto;
+    z-index: 4;
+}
+
 .navibar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
-    max-width: 1512px;
+    position: fixed;
+    right: 0;
+    left: 0;
     margin: 0 auto;
+    /* max-width: 1512px; */
+    z-index: 4;
+    background-color: #f5f8fe;
+  
     
 }
 
 .logo {
-    margin-left: -65px;
+    margin-right: 65px;
+    background-color: #f5f8fe;
 }
 
 .logo img {
     width: 100%;
+   
 }
 
 .navi-link {
@@ -45,12 +59,30 @@
     padding: 3px 10px;
 }
 
-.navi-link button {
+.navi-link a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    
+}
+
+.donate-btn1 {
     background-color: #088F4E;
     color: white;
     border-radius: 8px;
     padding: 10px 18px;
     border: none;
+    cursor: pointer;
+    transition: padding 1s, transform 2s;
+}
+
+.navi-link button:hover {
+    background-color: #088f4ec4;
+    color: white;
+    padding: 10px 24px;
 }
 
 /* Hero-section */
@@ -58,25 +90,28 @@
 .hero-image {
     height: 95vh;
     background: url(Assets/Images/Section\ Image.svg) no-repeat center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.8)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.8));
     background-size: cover;
     position: relative;
+    z-index: 2;
 }
 
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 90%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 1512px;
 }
 
 .hero-text h2 {
-    font-family: 'Open Sans';
+    font-size: 58px;
+    line-height: 65px;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 65px;
+    line-height: 78px;
     color: #FFFFFF;
 }
 
@@ -89,6 +124,7 @@
     max-width: 1512px;
     margin: 0 auto;
     padding: 270px 40px 100px;
+    align-items: center;
 }
 
 .image-one img {
@@ -112,27 +148,31 @@
 
 .first-container .text1 {
     width: 45%;
+
 }
 
 .text1 h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
+    font-size: 56px;
+    line-height: 68px;
     color: #514E4E;
     margin-left: 20px;
+
+    
 }
 
 .text1 .child {
-    font-family: 'Montserrat';
+   
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.0025em;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.02em;
     color: #303030;
-    margin: 25px 0 10px;
     margin-left: 20px;
 }
 
@@ -141,41 +181,193 @@
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 0.5rem;
 }
 
 .safety p {
-    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 163.68%;
-    letter-spacing: 0.0025em;
-    color: #000000;
+   
+    letter-spacing: 0.02em;
+
+    color: #171717;
 }
 
-.text1 .button {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 106px;
+hr {
+    border-style: none;
+    border-color: #000000;
+    border-width: 4px;
+    width: 80%;
+    margin: 8px auto 0;
 }
 
-.button button {
-    background-color: #FFFFFF;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 18px;
-    text-align: center;
-    color: #088F4E;
-    border: 1px solid #088F4E;
-    border-radius: 3px;
-    padding: 0px 12px 0px 10px;
-}
 
 /* Second container  */
+ .second-container {
+    max-width: 1512px;
+    margin: 0 auto;
+    padding: 2rem 4rem 6rem;
+    align-items: center;
+    position: relative;
+ }
 
+ .recent {
+    text-align: center;
+    padding-bottom: 7rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    text-align: center;
+    color: #514E4E;
+ }
+
+
+ .one {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 8rem;
+    z-index: 2;
+ }
+
+ .one-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+ }
+
+ .one-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+ }
+
+ span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 150;
+    cursor: pointer;
+ }
+
+ .two {
+    padding-top: 7rem;
+ }
+
+ .one-image img {
+    width: 100%;
+
+ }
+
+ .one-text {
+    background: #FFFDFD;
+    /* border: 0.5px solid rgba(45, 45, 45, 0.8); */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 3.4rem 1rem;
+ }
+
+  .two-text {
+    background: #FFFDFD;
+    /* border: 0.5px solid rgba(45, 45, 45, 0.8); */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 5rem 0rem 2.5rem 1rem;
+  }
+
+  .two-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+  }
+ 
+  .two-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+ .time {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    gap: 0.7rem;
+ }
+
+ .time p {
+    align-items: center;
+    align-content: center;
+    margin: 3px 0;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+ }
+
+ .comment {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    gap: 0.7rem;
+ }
+
+ .comment p {
+    align-items: center;
+    align-content: center;
+    margin: 3px 0;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+ }
+
+
+ .one-comment {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 1.5rem;
+ }
+
+ .Orange-square1 {
+    position: absolute;
+    top: 18.4%;
+    right: 11%;
+    z-index: -2;
+ }
+
+ 
+ .Orange-square2 {
+    position: absolute;
+    top: 60%;
+    right: 11%;
+    z-index: -2;
+ }
 
 
 /* Testimonial */
@@ -183,23 +375,48 @@
 #testimonials {
     background: url(Assets/Images/Testimonial-image.svg) no-repeat center;
     background-size: cover;
+    opacity: 0.9;
     text-align: center;
     color: #FFFFFF;
-    height: 50vh;
+    height: 60vh;
+    margin: 0 auto;
 }
 
 .testimonial-h2 {
     padding-top: 3rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    text-align: center;
 }
  
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
-    margin: 20px;
+    margin: 30px;
+   
 } 
+
+.carousel-item h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 36px;
+}
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+em {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
 }
 
 
@@ -208,6 +425,7 @@
 
 .footer-background {
     background-color: #2D2D2D;
+    padding-top: 5rem;
 }
 
 .footer {
@@ -222,25 +440,16 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    color: #F57328;
+    font-size: 32px;
+    line-height: 39px;
+    color: #088F4E;
 }
 
-.small button {
-    padding: 10px 30px;
-    background-color: #088F4E;
-    border-radius: 8px;
-    border: none;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 34px;
-    text-align: center;
-    color: #FFFDFD;
-    margin-top: 50px;
-
+.small img {
+    width: 100%;
+    padding: 10px 0 15px;
 }
+
 
 .first {
     display: flex;
@@ -256,68 +465,79 @@
     gap: 30px;
 }
 
+
+
 .footer-test h3 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
-    line-height: 41px;
+    font-size: 24px;
+    line-height: 29px;
     color: #FFFFFF;
+    
 }
 
 .footer-test a {
-    font-family: 'Montserrat';
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 33px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
+}
+
+.footer-test a :hover{
     text-decoration: none;
+    color: #088F4E;
+    background-color: #088F4E;
 }
 
 .socials {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
 }
 
 
 .contact {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
 }
 
 .footer-test p {
-    font-family: 'Montserrat';
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 33px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .second {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 
 .second h4 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 24px;
+    line-height: 29px;
     color: #FFFFFF;
     opacity: 0.9;
 }
 
 .second p {
-    font-family: 'Montserrat';
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
-    font-size: 27px;
-    line-height: 33px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
