@@ -9,22 +9,36 @@
 
 /* Nav section */
 
+.background-nav {  
+    background-color: #f5f8fe;
+    margin: 0 auto;
+    z-index: 4;
+}
+
 .navibar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
-    max-width: 1512px;
+    position: fixed;
+    right: 0;
+    left: 0;
     margin: 0 auto;
+    /* max-width: 1512px; */
+    z-index: 4;
+    background-color: #f5f8fe;
+  
     
 }
 
 .logo {
-    margin-left: -65px;
+    margin-right: 65px;
+    background-color: #f5f8fe;
 }
 
 .logo img {
     width: 100%;
+   
 }
 
 .navi-link {
@@ -45,12 +59,30 @@
     padding: 3px 10px;
 }
 
-.navi-link button {
+.navi-link a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    
+}
+
+.donate-btn1 {
     background-color: #088F4E;
     color: white;
     border-radius: 8px;
     padding: 10px 18px;
     border: none;
+    cursor: pointer;
+    transition: padding 1s, transform 2s;
+}
+
+.navi-link button:hover {
+    background-color: #088f4ec4;
+    color: white;
+    padding: 10px 24px;
 }
 
 /* Hero-section */
@@ -453,6 +485,12 @@ em {
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+}
+
+.footer-test a :hover{
+    text-decoration: none;
+    color: #088F4E;
+    background-color: #088F4E;
 }
 
 .socials {
