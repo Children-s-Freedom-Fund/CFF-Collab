@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+    text-decoration: none;
+}
+.body{
+    width: 100%;
+    
+}
+
+/* Nav section */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 60px;
+    max-width: 1512px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    margin-left: -65px;
+  }
+  
+  .logo img {
+    width: 65%;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 55px;
+  }
+  
+  .nav-link a {
+    color: black;
+    text-decoration: none;
+  }
+  .nav-link button {
+    background-color: #088f4e;
+    color: white;
+    border-radius: 8px;
+    padding: 16px 30px;
+    border: none;
+    font-size: 16px;
+  }
+
+
+
+.maindiv{
+    position: relative;
+}
+.getsec1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url("./Assest-img-get involved/IMG\ 1.png");
+    height: 95vh;
+    width: 100%;
+    /* margin-bottom: 20vh; */
+}
+.getsec1-text p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 117px;
+    color: #11643C;
+}
+.getsec1-text{
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    max-width: 1512px;
+    transform: translate(-50%, -50%);
+}
+.getsec2{
+    max-width: 1512px;
+    margin: 0 auto;
+    width: 80%;
+    /* margin: 0 20%; */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background: #FFFFFF;
+}
+.getsec2 p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 149.18%;
+    text-align: center;
+    color: #000000;
+}
+.spup{
+    padding-top: 180px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 1512px;
+    margin: 0 auto;
+}
+.spup button{
+    align-items: center;
+    justify-content: center;
+}
+.signup{
+    /* justify-content: center; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    color: #088F4E; 
+    background-color: #FFFFFF;
+    border: 2px solid #076236;
+    padding: 15px 40px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.slider{
+    max-width: 1512px;
+    margin: 0 auto;
+}
+.slider-mobile{
+    display: none;
+}
+.img2{
+    padding-top: 50px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.voldon{
+    display: flex;
+    gap: 70px;
+    justify-content: space-around;
+    padding: 10px 0 60px;
+}
+.voldon p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70px;
+    color: #088F4E;
+}
+.getsec4{
+    margin-bottom: 5vh;
+    max-width: 1512px;
+    margin: 0 auto;
+}
+.img5{
+    /* height: 83vh; */
+    padding-top: 15px;
+}
+.img5 img{
+    width: 100%;
+}
+.corporate{
+    padding: 25px 20px;
+}
+.corporate h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 78px;
+    color: #2F2E2E;
+}
+.corporate p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 48px;
+    color: #2F2E2E;
+    text-align: justify;
+}
+.corporate a{
+    color: #11643C;
+    text-decoration: none;
+}
+.img6{
+    margin: 15px 0;
+}
+.img6 img{
+    width: 100%
+}
+.img7 img{
+   width: 100%;
+}
+
+/* footer-section */
+
+.footer-background {
+    background-color: #2d2d2d;
+  }
+  
+  .footer {
+    background-color: #2d2d2d;
+    padding: 60px 5rem;
+    max-width: 1512px;
+    margin: 0 auto;
+  }
+  
+  .small h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #f57328;
+  }
+  
+  .small button {
+    padding: 15px 30px;
+    background-color: #088f4e;
+    border-radius: 8px;
+    border: none;
+    font-family: "Open sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #fffdfd;
+    margin-top: 50px;
+  }
+  
+  .first {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .footer-test h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #ffffff;
+  }
+  
+  .footer-test a {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .socials {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-test p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+  
+  .second {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .second h4 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    opacity: 0.9;
+  }
+  
+  .second p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 33px;
+    color: #ffffff;
+  }
+
+
+  /* RESPONSIVENESS */
+ @media screen and (max-width: 500px) {
+    .navbar{
+      display: none;
+    }
+  .slider{
+        display: none;
+    }
+    .slider-mobile{
+        display: block;
+    }
+    .footer-background{
+      display: none;
+    }
+    .getsec1{
+      height: 60vh;
+    }
+    .getsec2{
+      width: 95%;
+      top: 80%;
+      left: 50%;
+      height: 3rem;
+    }
+ }
