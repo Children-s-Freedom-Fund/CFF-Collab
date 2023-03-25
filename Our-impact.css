@@ -190,6 +190,17 @@
     flex-direction: row;
  }
 
+ .one-comment {
+    display: flex;
+    gap: 50px;
+ }
+
+ .one-comment .time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
  .one-text {
     background: #FFFDFD;
     boder: 0.5px solid rgba(45, 45, 45, 0.8);
