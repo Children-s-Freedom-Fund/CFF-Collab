@@ -84,6 +84,10 @@ h2 {
   letter-spacing: 0.02em;
 }
 
+.hamburger {
+  display: none;
+}
+
 .donate-btn1 {
   background-color: #088f4e;
   color: white;
