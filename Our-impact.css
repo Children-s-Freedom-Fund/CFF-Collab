@@ -5,11 +5,8 @@
 }
 
 /* Nav section */
-
 .background-nav {
-  background-color: #f5f8fe;
-  margin: 0 auto;
-  z-index: 4;
+   
 }
 
 .navibar {
@@ -22,14 +19,11 @@
   left: 0;
   margin: 0 auto;
   /* max-width: 1512px; */
-  z-index: 4;
   background-color: #f5f8fe;
+  z-index: 4;
+  
 }
 
-.logo {
-  margin-right: 65px;
-  background-color: #f5f8fe;
-}
 
 .logo img {
   width: 100%;
@@ -80,13 +74,14 @@
 /* Hero-section */
 
 .hero-image {
+  padding-top: 3rem;
   height: 95vh;
   background: url(Assets/Images/Section\ Image.svg) no-repeat center;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.8))
     drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.8));
   background-size: cover;
   position: relative;
-  z-index: 2;
+  
 }
 
 .hero-text {
@@ -531,6 +526,10 @@ em {
     padding: 10px 0px;
   }
 
+  .logo {
+    width: 45%;
+  }
+
   .hamburger {
     display: block;
     cursor: pointer;
@@ -544,6 +543,30 @@ em {
   .image1 {
     display: none;
   }
+
+  .image-one, .position-image {
+    display: none;
+  }
+
+  .first-container .text1 {
+    width: 100%;
+    margin: 0 auto;
+  }   
+
+  .text1 h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #514E4E;
+  }
+
+
+
+
+
+
 
   .footer {
     background-color: #2d2d2d;
