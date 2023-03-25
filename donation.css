@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #fffdfd;
+}
+a {
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #2d2d2d;
+}
+p {
+  font-family: "Manrope", sans-serif;
+  /* font-weight: 200; */
+}
+h2 {
+  font-size: 3rem;
+}
+/* Nav section */
+
+/* Nav section */
+
+.navibar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  /* max-width: 1512px; */
+  background-color: #f5f8fe;
+  z-index: 4;
+  
+}
+
+
+.logo img {
+  width: 100%;
+}
+
+.navi-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.navi-link a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.hamburger {
+  display: none;
+}
+
+.nav-get-involved {
+  border-bottom: 2px solid #088f4e;
+  padding: 3px 10px;
+}
+
+.navi-link a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
+
+.donate-btn1 {
+  background-color: #088f4e;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 18px;
+  border: none;
+  cursor: pointer;
+  transition: padding 1s, transform 2s;
+}
+
+.navi-link button:hover {
+  background-color: #088f4ec4;
+  color: white;
+  padding: 10px 24px;
+}
+
+
+/* HEADER SECTION */
+header {
+  padding: 1rem 0;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 2rem 5rem;
+}
+header .donate-img {
+  width: 45%;
+}
+header .donate-img img {
+  width: 100%;
+}
+.head .donate-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+}
+.donate-text h2 {
+  padding-bottom: 2.5rem;
+  color: #2d2d2d;
+  font-size: 42px;
+  font-family: "Montserrat", sans-serif;
+}
+.donate-text p {
+  font-size: 20px;
+  line-height: 34px;
+}
+hr {
+  color: #2d2d2d3b;
+}
+.amount {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+.amount .amount-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.amount .amount-text p {
+  color: #fb8903;
+  font-size: 16px;
+  padding: 1rem 0;
+}
+.amount h3 {
+  font-size: 40px;
+  padding: 1rem 0;
+  color: #2d2d2d;
+}
+.amount h5 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.cards {
+  display: flex;
+  padding: 3rem 5rem;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.cards .card {
+  background: #fffdfd;
+  box-shadow: 0px 4px 15px rgba(83, 82, 82, 0.09);
+  border-radius: 16px;
+  /* padding: 2rem; */
+}
+.cards .card ul {
+  padding: 2rem 1rem;
+  font-family: "Manrope", sans-serif;
+}
+.cards .card li {
+  list-style: none;
+  padding: 0.5rem 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+.card h4 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.card .money {
+  background-color: #088f4e;
+  padding: 1.5rem 4rem;
+  color: white;
+  border: none;
+  border-radius: 16px 16px 0 0;
+}
+.card button {
+  background-color: white;
+  padding: 0.9rem 1.5rem;
+  border: 1px solid #088f4e;
+  border-radius: 8px;
+  width: 50%;
+  align-self: center;
+  margin-bottom: 2rem;
+}
+.card button a {
+  /* display: block; */
+  width: 80%;
+
+  /* margin: 0.5rem auto; */
+  text-decoration: none;
+  color: #088f4e;
+}
+.card input {
+  width: 80%;
+  background-color: rgb(238, 235, 235);
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  align-self: center;
+  margin: 1.5rem 0;
+  color: #3534343f;
+}
+.card p {
+  font-size: 14px;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+/* footer-section */
+
+.footer-background {
+  background-color: #2d2d2d;
+  padding-top: 5rem;
+}
+
+.footer {
+  background-color: #2d2d2d;
+  padding: 60px 40px;
+  max-width: 1512px;
+  margin: 0 auto;
+}
+
+.small h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #088f4e;
+}
+
+.small img {
+  width: 100%;
+  padding: 10px 0 15px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-test h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.footer-test a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.footer-test a :hover {
+  text-decoration: none;
+  color: #088f4e;
+  background-color: #088f4e;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-test p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.second h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.second p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
