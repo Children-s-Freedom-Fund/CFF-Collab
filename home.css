@@ -27,7 +27,7 @@ p {
   /* font-weight: 200; */
 }
 h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 /* Nav section */
 
@@ -126,14 +126,14 @@ h2 {
   border-radius: 10px;
 }
 .about .abt-text h2 {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   color: #2d2d2d;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
 }
 .about .abt-text h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 34px;
   color: #fb8903;
 }
@@ -142,7 +142,7 @@ h2 {
   background: #fef7f1;
   box-shadow: 3px 4px 20px 2px rgba(0, 0, 0, 0.05);
   border-radius: 0px 4px 4px 0px;
-  padding: 3.3rem 3rem;
+  padding: 2.8rem 3rem;
   /* width: 500px; */
   display: flex;
   flex-direction: column;
@@ -150,32 +150,32 @@ h2 {
   left: 50%;
   right: 7%;
   z-index: 1;
-  top: 38%;
+  top: 30%;
 }
 .about .abt-text .mission-card p {
   font-style: italic;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 18px;
   /* text-align: center; */
   line-height: 38px;
   color: #2d2d2d;
 }
 .about .abt-text .mission-card h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   align-self: baseline;
   text-align: left;
   font-family: "Montserrat", sans-serif;
   color: rgb(251, 137, 3);
   position: absolute;
   right: 5%;
-  top: -7%;
+  top: -5%;
   z-index: 2;
 }
 .about .abt-text .mission-card button {
   background: transparent;
   border-radius: 8px;
-  border: 1px solid #088f4e;
-  padding: 0.9rem 1.1rem;
+  border: 1px solid #fb8908;
+  padding: 0.8rem 1.1rem;
   margin-top: 1.7rem;
   width: 38%;
 }
@@ -185,14 +185,14 @@ h2 {
 }
 .about .abt-text .mission-card button:hover,
 .impact button:hover {
-  border: 2px solid #088f4e;
+  border: 2px solid #fb8903;
 }
 .about .abt-text .mission-card button a {
   font-family: "Manrope", sans-serif;
   line-height: 38px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
-  color: #088f4e;
+  color: #fb8903;
 }
 .sponsor,
 .volunteer {
@@ -218,7 +218,7 @@ h2 {
 }
 .sponsor .sponsor-text p,
 .volunteer .volunteer-text p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 40px;
   color: #201f1f;
 }
@@ -349,13 +349,12 @@ h2 {
   max-width: 1512px;
   margin: 0 auto;
 }
-
 .small h3 {
-  font-family: "Montserrat";
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  color: #f57328;
+  color: #088f4e;
 }
 
 .small button {
@@ -363,7 +362,7 @@ h2 {
   background-color: #088f4e;
   border-radius: 8px;
   border: none;
-  font-family: "Open sans";
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -379,6 +378,11 @@ h2 {
   align-content: center;
   gap: 20px;
 }
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+  gap: 7.5rem;
+}
 
 .links {
   display: flex;
@@ -388,7 +392,7 @@ h2 {
 }
 
 .footer-test h3 {
-  font-family: "Montserrat";
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -397,7 +401,7 @@ h2 {
 }
 
 .footer-test a {
-  font-family: "Montserrat";
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -419,7 +423,7 @@ h2 {
 }
 
 .footer-test p {
-  font-family: "Montserrat";
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -434,7 +438,7 @@ h2 {
 }
 
 .second h4 {
-  font-family: "Montserrat";
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -444,7 +448,7 @@ h2 {
 }
 
 .second p {
-  font-family: "Montserrat";
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -545,7 +549,7 @@ h2 {
     position: relative;
     background: #fcfaf9;
     padding: 2rem 1rem;
-    margin: 0;
+    margin: 1rem 0;
     left: 0;
     right: 0;
     z-index: 0;
@@ -598,7 +602,7 @@ h2 {
   }
   .sponsor h2,
   .volunteer h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 1.3rem 0 0.5rem 0;
   }
   .sponsor .sponsor-text p,
@@ -615,11 +619,12 @@ h2 {
     margin: 1rem 0;
   }
   .impact {
-    padding: 2rem 2rem;
+    padding: 2rem 1.5rem;
     margin: 1rem 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-radius: none;
     /* flex-wrap: wrap; */
   }
   .impact button {
@@ -632,13 +637,18 @@ h2 {
   .impact-cont {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     /* flex-direction: column; */
     /* justify-content: space-around; */
     flex-wrap: wrap;
   }
   .impact h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 30px;
+  }
+  .impact p {
+    font-size: 0.7rem;
+    /* line-height: 30px; */
   }
   .subscribe {
     padding: 2rem 1rem;
@@ -681,5 +691,85 @@ h2 {
     text-align: left;
     font-size: 0.8rem;
     margin: 1rem 0;
+  }
+  .footer {
+    background-color: #2d2d2d;
+    padding: 2rem 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    /* align-items: center; */
+  }
+  .small h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .small button {
+    padding: 10px 20px;
+    line-height: 28px;
+    display: block;
+    margin: 1rem auto;
+    font-size: 16px;
+  }
+
+  .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 10px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer-test h3 {
+    font-size: 14px;
+    line-height: 38px;
+  }
+
+  .footer-test a {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  .socials,
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer-test p {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 1rem 0 0 0;
+  }
+
+  .second h4 {
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .second p {
+    font-size: 12px;
+    line-height: 28px;
   }
 }
