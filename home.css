@@ -488,6 +488,10 @@ h2 {
 
 /* RESPONSIVENESS */
 @media screen and (max-width: 1200px) and (min-width: 700px) {
+  .navi-link {
+    display: none;
+  }
+  
   .about {
     padding: 5rem 4rem;
   }
@@ -546,6 +550,16 @@ h2 {
   #home .nav-bar .nav-link {
     display: none;
   }
+
+  .navi-link {
+    display: none;
+  }
+  
+  .hamburger {
+    display: block;
+  }
+
+
   #home header {
     background-image: url("images/header-image.png");
     width: 100%;
