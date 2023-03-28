@@ -245,21 +245,21 @@
     color: #2F2E2E;
 }
 .corporate p{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 172.7%;
-    color: #2F2E2E;
-    text-align: justify;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 172.7%;
+  color: #2F2E2E;
+  text-align: justify;
 }
 .corporate a{
     color: #11643C;
     text-decoration: none;
 }
-.img6{
+/* .img6{
     margin: 15px 0;
-}
+} */
 .img6 img{
     width: 100%
 }
