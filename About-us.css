@@ -1,356 +1,729 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .after_hero{
-    margin: 3%;
+  margin: 3%;
+     
 }
 
-.navibar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px;
-    position: fixed;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    /* max-width: 1512px; */
-    background-color: #f5f8fe;
-    z-index: 4;
-    
-  }
-  
-  
-  .logo img {
-    width: 100%;
-  }
-  
-  .navi-link {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 55px;
-  }
-  
-  .navi-link a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .nav-about-us {
-    border-bottom: 2px solid #088f4e;
-    padding: 3px 10px;
-  }
-  
-  .navi-link a {
-    font-family: "Manrope";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.02em;
-  }
-  
-  .donate-btn1 {
-    background-color: #088f4e;
-    color: white;
-    border-radius: 8px;
-    padding: 10px 18px;
-    border: none;
-    cursor: pointer;
-    transition: padding 1s, transform 2s;
-  }
-  
-  .navi-link button:hover {
-    background-color: #088f4ec4;
-    color: white;
-    padding: 10px 24px;
-  }
+a{
+  text-decoration: none;
+  color: black;
+}
 
-  .hamburger {
-    display: none;
-  }
-    
+
+.navibar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.875rem;
+  position: fixed;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  /* max-width: 1512px; */
+  background-color: #f5f8fe;
+  z-index: 4;
+  
+}
+
+
+.logo img {
+  width: 100%;
+}
+
+.navi-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.4375rem;
+}
+
+.navi-link a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.hamburger {
+  display: none;
+}
+
+.nav-about-us {
+  border-bottom: 2px solid #088f4e;
+  padding: 3px 10px;
+}
+
+.navi-link a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  transition: font-size 1s, transform 2s;
+}
+
+.navi-link a :hover{
+  font-size: 20px;
+}
+
+.donate-btn1 {
+  background-color: #088f4e;
+  color: white;
+  border-radius: 8px;
+  padding: 14px 24px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: padding 1s, transform 2s;
+}
+
+.navi-link button:hover {
+  background-color: #026536;
+  color: white;
+  padding: 14px 30px;
+}
+
+
+
+
 
 
 /*SECTION 1*/
 .section_1{
-    background-image: url('/About-us-assets/image1.png');
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-size:  cover;
-    height: 90vh;
-    color: white;
-    text-align: center;
-   
+  padding-top: 3rem;
+  background-image: url('/About-us-assets/image1.png');
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-size:  cover;
+  height: 90vh;
+  color: white;
+  text-align: center;
 }
 
+
+
 h1{
-    font-size: 96px;
-    padding-top: 14%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+  font-size: 94px;
+  padding-top: 14%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  
 }
 
 h3{
-    font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+  font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* padding: 1rem 2rem; */
 }
 
 .section1_hr{
-   margin-top: 2%;
-    color: black;
+ margin-top: 2%;
+  color: black;
 }
 
 /*SECTION 2*/
 .row{
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    font-size: 19px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    line-height: 28px;
-    padding-right: 3%;
-
+  justify-content: center;
+  text-align: justify;
+  padding: 0rem 3rem;
 }
 
-.col {
-    width: 40%;
-    margin-left: 50px;
-    width: 100%;
+.row p {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 52px;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+
+.section_2{
+  background: #E2DADA;
+}
+
+.more {
+  display: none;
 }
 
 
 /*SECTION 3*/
 .section_3, .section_4{
-    display: flex;
-    align-content: center;
-    padding: 3rem 3rem;
-    font-size: 20px;
-    gap: 5rem;
-    align-items: center;
-   
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 4rem 2rem;
+  font-size: 20px;
+  /* gap: 5rem; */
+
+  align-items: center; 
+}
+
+.mission {
+  width: 40%;
+}
+
+hr{
+  border: 0.2px solid rgba(45, 45, 45, 0.3);
 }
 
 .second_image, .third_image{
-    width: 45%;
-    border-radius: 20px;
+  width: 45%;
+  border-radius: 20px;
 }
 
 .freedom_mission, .freedom_values{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    color: #303030;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #303030;
+  font-size: 42px;
+  padding-bottom: 1rem ;
 }
 
 .read{
-    color: #FF8D06;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    justify-items: center;
+  color: #FF8D06;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  justify-items: center;
+  cursor: pointer;
 }
 
 .vector2 {
-    width: 1.2%;   
+  width: 1.2%;   
 }
 
 .more{
-    text-align: center;
-    padding-top: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.value {
+  width: 40%;
 }
 
 .mission-text, .values-text{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 28px;
-    text-align: justify;
-    color: #303030;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  /* text-align: justify; */
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+
+.values-textH {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+
+.values-text-heading {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  text-align: center;
+  color: #088F4E;
 }
 
 /*SECTION 5*/
 .team{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 45px;
-    text-align: center;
-    color: #1B1C1E;
-    margin-top: 5%;
+  margin-top: 5%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  text-align: center;
+  color: #1B1C1E;
 }
 
 /*SECTION 6*/
 .card1{
-    width: 25%;
-    height: 500px;
-    box-shadow: 8px 8px 20px 3px rgba(0, 0, 0, 0.25), -8px -8px 20px 3px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    margin-left: 6.5%;
-    margin-bottom: 6%;
-    line-height: 42px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 500px;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25), -3px -3px 10px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-left: 6.5%;
+  margin-bottom: 6%;
+  /* line-height: 42px; */
+  align-items: center;
 }
+
+/* .middle {
+  align-items: center;
+  margin: 0 auto;
+} */
 
 .section_6{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 5%;
-}
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}  
 
 .Gideon{
-    border-radius: 100%;
-    width: 100%;
-    padding: 1.5rem 5rem;
+  border-radius: 100%;
+  width: 100%;
+  padding: 1.5rem 5rem;
 }
 
 .name{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    color: #2B2B2B;
-    text-align: center;
-    font-size: 19px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  color: #2B2B2B;
+  text-align: center;
+  font-size: 19px;
+  padding-bottom: 1rem;
+}
+
+.riha {
+  padding-top: 4.9rem;
 }
 
 .role{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    color: #303030;
-    text-align: center;
-    font-size: 19px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  color: #303030;
+  text-align: center;
+  font-size: 19px;
 }
 
 
 
 .vector3{
-    width: 2%;
+  width: 2%;
 }
 
-.bio{
-    color: #FF8D06;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 19px;
-    border-bottom: 2px solid #FF8D06;
-
-}
 
 
 /* footer-section */
 
 .footer-background {
-    background-color: #2d2d2d;
-    padding-top: 5rem;
+  background-color: #2d2d2d;
+  padding-top: 5rem;
+}
+
+.footer {
+  background-color: #2d2d2d;
+  padding: 3.75rem 2.5rem;
+  max-width: 1512px;
+  margin: 0 auto;
+}
+
+.small h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #088f4e;
+}
+
+.small img {
+  width: 100%;
+  padding: 10px 0 15px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.875rem;
+}
+
+.footer-test h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.footer-test a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.footer-test a :hover {
+  text-decoration: none;
+  color: #088f4e;
+  background-color: #088f4e;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.footer-test p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.second h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.second p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.footer-mobile {
+  display: none;
+}
+/*
+.bio{
+  color: #FF8D06;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  border-bottom: 2px solid #FF8D06;
+
+}*/
+
+@media screen and (max-width: 850px) {
+  .card1{
+      width: 35%;
+      margin-bottom: 8%;
+      align-items: center;
+      margin-left: 10%;
+  }
+
+  .section_3, .section_4{
+      flex-direction: column;
+      align-content: center;
+      font-size: 20px;
+      align-items: center;
+     
+  }
+
+  .section_4{
+      flex-direction: column-reverse;
+  }
+
+  .second_image, .third_image{
+      width: 90%;
+  }
+
+  .name{
+      padding: 0rem 2.5rem;
+  }
+
+  h1{
+      font-size: 70px;
+      padding-top: 20%;
+  }
+
+  h3{
+      font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 660px){
+   /* Nav section */
+   .navi-link {
+    display: none;
+  }
+
+  .navibar {
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .logo {
+    width: 45%;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    padding-right: 10px;
+  }
+
+  .row {
+    padding: 0rem 0.5rem;
+  }
+
+  .row p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    color: #303030;
+  }
+
+
+  
+  .section_3, .section_4{
+      flex-direction: column;
+      align-content: center;
+      /* font-size: 20px; */
+      align-items: center;
+      padding: 1rem 0;
+     
+  }
+
+  .mission-text, .values-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* text-align: left; */
+    letter-spacing: 0.02em;
+    color: #303030;
+  }
+
+  .values-textH {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* text-align: left; */
+    letter-spacing: 0.02em;
+    color: #303030;
+  }
+
+  .mission {
+    width: 100%;
+    padding: 2rem 0;
+  }
+
+  .value {
+    width: 100%;
+  }
+
+  .section_4{
+      flex-direction: column-reverse;
+  }
+
+  .second_image, .third_image{
+      width: 100%;
+  }
+
+  .freedom_mission{
+      margin-top:auto;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 30px;
+      text-align: center;
+      color: #303030;
+
+  }
+
+  .card1{
+      width: 60%;
+      margin-bottom: 8%;
+      align-items: center;
+      margin-left: 16%;
+      height: 300px;
+  }
+
+  .Gideon {
+    padding: 1.5rem 2rem;
+  }
+
+ /*  h1{
+      font-size: 50px;
+      padding-top: 28%;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
   }
   
-  .footer {
-    background-color: #2d2d2d;
-    padding: 60px 40px;
-    max-width: 1512px;
-    margin: 0 auto;
+  h3{
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      padding: 1rem 2rem;
+  } */
+
+  .vector2 , .vector3{
+      width: 2%;   
   }
-  
-  .small h3 {
-    font-family: "Montserrat";
+
+  .team{
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-    color: #088f4e;
+    text-align: center;
+    color: #1B1C1E;
   }
-  
-  .small img {
-    width: 100%;
-    padding: 10px 0 15px;
+
+  /* Footer section */
+
+  .footer {
+    display: none;
   }
-  
-  .first {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    gap: 20px;
+
+  .footer-background{
+    padding-top: 1rem;
   }
-  
-  .links {
+
+  .footer-mobile{
     display: flex;
     flex-direction: column;
+  }
+
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer1 h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #088F4E;
+  }
+
+  .footer1 img {
+    width: 50%;
+  }
+
+  .footer2 {
+    display: flex;
     justify-content: space-between;
-    gap: 30px;
+    padding: 2rem 0.5rem;
+  }
+
+  .links {
+    justify-content: space-between;
+    gap: 0px;
+  }
+
+  .socials {
+    gap: 1.8rem;
   }
   
   .footer-test h3 {
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #ffffff;
-  }
-  
-  .footer-test a {
-    font-family: "Manrope";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
   }
 
-  .footer a {
-    text-decoration: none;
-  }
-  
-  .footer a :hover {
-    color: #088f4e;
-  }
-  
-  .socials {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-  
-  .contact {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-  
-  .footer-test p {
-    font-family: "Manrope";
+  .footer-test a {
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+
+  .footer-test p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
   }
   
-  .second {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5rem;
-  }
-  
-  .second h4 {
-    font-family: "Montserrat";
+
+ .footer3 {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   padding: 1rem 0;
+ }
+
+ .footer3 h4 {
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
     opacity: 0.9;
-  }
-  
-  .second p {
-    font-family: "Manrope";
+ }
+
+ .footer3 p {
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-  }
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+
+ }
+
+
+}
 
