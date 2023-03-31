@@ -218,6 +218,17 @@ hr{
   color: #303030;
 }
 
+.values-textHp {
+  
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 36px;
+color: #088F4E;
+
+}
+
 .values-textH {
   font-family: 'Manrope';
   font-style: normal;

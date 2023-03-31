@@ -171,7 +171,17 @@
   padding: 1rem 2rem;
   background-color: #FFFFFF;
   border-color: #088f4E;
+  cursor: pointer;
+  border-radius: 1rem;
 }
+
+.spup a :hover {
+  background-color: #088F4E;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+
 .slider{
     max-width: 1512px;
     margin: 0 auto;
