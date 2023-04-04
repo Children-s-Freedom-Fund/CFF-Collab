@@ -116,7 +116,8 @@ h2 {
 
 /* HEADER SECTION */
 header {
-  padding: 1rem 0;
+  padding: 2rem 0;
+
 }
 .head {
   display: flex;
@@ -143,7 +144,7 @@ header .donate-img img {
   font-family: "Montserrat", sans-serif;
 }
 .donate-text p {
-  font-size: 20px;
+  font-size: 26px;
   line-height: 34px;
 }
 hr {
@@ -162,7 +163,7 @@ hr {
 }
 .amount .amount-text p {
   color: #fb8903;
-  font-size: 16px;
+  font-size: 24px;
   padding: 1rem 0;
 }
 .amount h3 {
@@ -179,6 +180,7 @@ hr {
   padding: 3rem 5rem;
   justify-content: space-between;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -198,7 +200,7 @@ hr {
   list-style: none;
   padding: 0.5rem 0;
   font-family: "Manrope", sans-serif;
-  font-size: 14px;
+  font-size: 22px;
 }
 .card h4 {
   color: white;
@@ -216,19 +218,33 @@ hr {
   background-color: white;
   padding: 0.9rem 1.5rem;
   border: 1px solid #088f4e;
+  font-size: 1.2rem;
+  font-family: "Manrope", sans-serif;
   border-radius: 8px;
   width: 50%;
   align-self: center;
   margin-bottom: 2rem;
 }
+
+.card button:hover {
+  background-color: #026536;
+  color: #ffffff;
+  border-color: #FFFFFF;
+}
+
+
 .card button a {
   /* display: block; */
   width: 80%;
-
   /* margin: 0.5rem auto; */
   text-decoration: none;
   color: #088f4e;
 }
+
+.card button a:hover {
+  color: #ffffff;
+}
+
 .card input {
   width: 80%;
   background-color: rgb(238, 235, 235);
@@ -237,12 +253,24 @@ hr {
   border-radius: 8px;
   align-self: center;
   margin: 1.5rem 0;
+  margin-top: 3rem;
   color: #3534343f;
 }
+
+::placeholder {
+  font-family: "Manrope", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
 .card p {
-  font-size: 14px;
+  font-size: 22px;
   text-align: center;
   padding: 1rem 2rem;
+}
+
+.last-btn {
+  margin-top: 3.9rem;
 }
 /* footer-section */
 
@@ -305,10 +333,10 @@ hr {
   color: #ffffff;
 }
 
-.footer-test a :hover {
+.footer-test a:hover {
   text-decoration: none;
   color: #088f4e;
-  background-color: #088f4e;
+  
 }
 
 .socials {
@@ -359,4 +387,219 @@ hr {
   color: #ffffff;
 }
 
+.footer-mobile {
+  display: none;
+}
+
+@media screen and (max-width:500px) {
+
+  /* Nav section */
+  .navi-link {
+    display: none;
+  }
+
+  .navibar {
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .logo {
+    width: 45%;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    padding-right: 10px;
+  } 
+
+  header {
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 3rem;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  header .donate-img {
+    width: 100%;
+    margin-top: 6rem;
+    margin-left: 10px;
+  }
+
+  .head .donate-text {
+    width: 100%;
+    padding: 0 0.6rem;
+  }
+
+  .donate-text h2 {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .donate-text p {
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .amount-text h3 {
+    font-size: 1.8rem;
+  }
+
+  .amount h5 {
+    font-size: 19px;
+  }
+
+  .amount .amount-text p {
+    font-size: 14px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+  }
+
+  .card {
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+
+  .cards .card ul {
+    padding: 2rem 2rem;
+  }
+
+  
+
+  .cards .card li {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 20;
+  }
+
+
+
+
+ 
+
+
+  /* Footer section */
+
+  .footer {
+    display: none;
+  }
+
+  .footer-background{
+    padding-top: 1rem;
+  }
+
+  .footer-mobile{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer1 h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #088F4E;
+  }
+
+  .footer1 img {
+    width: 50%;
+  }
+
+  .footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0.5rem;
+  }
+
+  .links {
+    justify-content: space-between;
+    gap: 0px;
+  }
+
+  .socials {
+    gap: 1.8rem;
+  }
+  
+  .footer-test h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  .footer-test a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+
+  .footer-test p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  
+
+ .footer3 {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   padding: 1rem 0;
+ }
+
+ .footer3 h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.9;
+ }
+
+ .footer3 p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+
+ }
+  
+}
 
