@@ -61,12 +61,16 @@
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.02em;
-  transition: font-size 1s, transform 2s;
+  transition: font-size 1s, transform 1s;
 }
 
-.navi-link a :hover{
+.navi-link a:hover{
   font-size: 20px;
+  color: #088f4e;
+  text-decoration: none;
 }
+
+
 
 .donate-btn1 {
   background-color: #088f4e;

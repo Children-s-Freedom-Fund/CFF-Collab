@@ -59,10 +59,7 @@ h2 {
   gap: 55px;
 }
 
-.navi-link a {
-  color: black;
-  text-decoration: none;
-}
+
 
 .nav-home {
   border-bottom: 2px solid #088f4e;
@@ -80,7 +77,16 @@ h2 {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.02em;
+  color: black;
+  text-decoration: none;
+  transition: font-size 1s, transform 1s;
 }
+
+.navi-link a:hover {
+  font-size: 20px;
+  color: #088f4e;
+  text-decoration: none;
+} 
 
 
 .donate-btn1 {
@@ -432,10 +438,9 @@ h2 {
   color: #ffffff;
 }
 
-.footer-test a :hover {
+.footer-test a:hover {
   text-decoration: none;
   color: #088f4e;
-  background-color: #088f4e;
 }
 
 .socials {
@@ -554,15 +559,25 @@ h2 {
   #home .nav-bar .nav-link {
     display: none;
   }
-
+  /* Nav section */
   .navi-link {
     display: none;
   }
-  
-  .hamburger {
-    display: block;
+
+  .navibar {
+    width: 100%;
+    padding: 10px 0px;
   }
 
+  .logo {
+    width: 45%;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    padding-right: 10px;
+  }
 
   #home header {
     background-image: url("images/header-image.png");

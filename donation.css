@@ -60,20 +60,17 @@ h2 {
   gap: 55px;
 }
 
-.navi-link a {
-  color: black;
-  text-decoration: none;
-}
+
 
 
 .hamburger {
   display: none;
 }
 
-.nav-get-involved {
+/* .nav-get-involved {
   border-bottom: 2px solid #088f4e;
   padding: 3px 10px;
-}
+} */
 
 .navi-link a {
   font-family: "Manrope";
@@ -82,7 +79,18 @@ h2 {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.02em;
+  color: black;
+  text-decoration: none;
+  transition: font-size 1s, transform 1s;
 }
+
+.navi-link a:hover {
+  font-size: 20px;
+  color: #088f4e;
+  text-decoration: none;
+}
+
+
 
 .hamburger {
   display: none;
@@ -92,16 +100,17 @@ h2 {
   background-color: #088f4e;
   color: white;
   border-radius: 8px;
-  padding: 10px 18px;
+  padding: 14px 24px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
   transition: padding 1s, transform 2s;
 }
 
 .navi-link button:hover {
-  background-color: #088f4ec4;
+  background-color: #026536;
   color: white;
-  padding: 10px 24px;
+  padding: 14px 30px;
 }
 
 

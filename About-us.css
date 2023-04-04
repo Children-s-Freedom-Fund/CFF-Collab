@@ -41,11 +41,6 @@ a{
   gap: 3.4375rem;
 }
 
-.navi-link a {
-  color: black;
-  text-decoration: none;
-}
-
 
 .hamburger {
   display: none;
@@ -63,11 +58,15 @@ a{
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.02em;
-  transition: font-size 1s, transform 2s;
+  color: black;
+  text-decoration: none;
+  transition: font-size 1s, transform 1s;
 }
 
-.navi-link a :hover{
+.navi-link a:hover{
   font-size: 20px;
+  color: #088f4e;
+  text-decoration: none;
 }
 
 .donate-btn1 {
@@ -383,10 +382,10 @@ color: #088F4E;
   color: #ffffff;
 }
 
-.footer-test a :hover {
+.footer-test a:hover {
   text-decoration: none;
   color: #088f4e;
-  background-color: #088f4e;
+  
 }
 
 .socials {
