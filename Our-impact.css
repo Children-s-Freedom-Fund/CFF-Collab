@@ -39,6 +39,11 @@
   text-decoration: none;
 }
 
+.navi-link a:hover {
+  color: #088f4e;
+  text-decoration: none;
+}
+
 .our-impact {
   border-bottom: 2px solid #088f4e;
   padding: 3px 10px;
@@ -459,10 +464,10 @@ em {
   color: #ffffff;
 }
 
-.footer-test a :hover {
+.footer-test a:hover {
   text-decoration: none;
   color: #088f4e;
-  background-color: #088f4e;
+  
 }
 
 .socials {
